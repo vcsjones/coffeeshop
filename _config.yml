@@ -1,0 +1,12 @@
+title: Coffee House
+baseurl: ""
+url: "http://vcsjonescoffeehouse.com"
+twitter_username: vcsjones
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

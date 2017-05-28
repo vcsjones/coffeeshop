@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<p>
+Select your artisianal coffee. We offer a carefully picked selection of
+hand roasted coffees, ranging from light to dark and blends. If you don't
+see a coffee you like, too bad.
+</p>
+
+<h1>Featured</h1>
+<p>Our featured coffees are coffees that some people admit taste okay.</p>
+
+<div class="coffee-list">
+    {% for coffee in site.data.coffee.coffees %}
+    <div class="coffee-item">
+        <img src="{{ coffee.image }}" title="{{coffee.name}}" class="coffee-image" />
+        <div class="coffee-labels">
+            <div class="coffee-name">
+                {{ coffee.name }}
+            </div>
+            <div class="coffee-description">
+                {{ coffee.description }}
+            </div>
+            <div class="coffee-rating">
+                {% for i in (1..coffee.rating) %}
+                    ⭐️
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

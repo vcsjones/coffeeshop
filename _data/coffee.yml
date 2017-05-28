@@ -1,0 +1,30 @@
+coffees:
+  - name: Rubuso Fabuloso Coffee
+    description: A robust, rich bodied coffee.
+    image: images/coffee.jpg
+    rating: 4
+
+  - name: Cremé Cream Café Cofféé
+    description: It's got accents in the name. Very artisanal!
+    image: images/coffee.jpg
+    rating: 2
+
+  - name: Caffiene Powerhouse
+    description: Your body won't know how to handle it.
+    image: images/coffee.jpg
+    rating: 3
+
+  - name: Venti Bean
+    description: Each bean weights 20 pounds.
+    image: images/coffee.jpg
+    rating: 5
+
+  - name: Leftovers
+    description: The leftover grounds from the self-serve grind machine in Whole Foods.
+    image: images/coffee.jpg
+    rating: 1
+
+  - name: Decaf Colombian Blend
+    description: Bleh, decaf. Why bother?
+    image: images/coffee.jpg
+    rating: 4
