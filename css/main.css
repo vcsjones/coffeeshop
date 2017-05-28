@@ -53,6 +53,7 @@ header {
  .coffee-description {
      font-style: italic;
      width: 200px;
+     color: #444;
  }
 
  .coffee-rating {
@@ -74,5 +75,26 @@ header {
 @media screen and (max-width: 620px) {
     #container {
         width: 320px;
+    }
+
+    .coffee-name {
+        font-size: 14pt;
+        max-width: 100px;
+    }
+
+    .coffee-description {
+        max-width: 100px;
+    }
+
+    .coffee-rating {
+        font-size: 10pt;
+    }
+
+    #login-form form {
+        padding: 0 10px;
+        text-align: center;
+    }
+    #login-form form input {
+        width: 100%;
     }
 }
